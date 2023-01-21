@@ -70,6 +70,8 @@ Then to add it to crontab:
 
 This will log all output, the python script logs all output with timestamps
 
+**Warning:** Test it first! Depending on what distro and how you are running cron you might want to change with ```chmod``` the folder cloned permissions
+
 ## Run
 
 ```bash
