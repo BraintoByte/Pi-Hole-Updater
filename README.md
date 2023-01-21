@@ -79,6 +79,10 @@ This will log all output, the python script logs all output with timestamps
 ```bash
 python pi_hole_updater.py
 ```
+
+# Download Pi-Hole NOW!
+- [Pi-Hole Download](https://github.com/pi-hole/pi-hole)
+
 <br />
 <br />
 <br />
