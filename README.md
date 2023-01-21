@@ -79,4 +79,4 @@ python pi_hole_updater.py
 
 
 
-                                   Check out our website, www.braintobytes.com for more!
+                                   Check out our website, [www.braintobytes.com](www.braintobytes.com) for more!
