@@ -51,7 +51,7 @@ def update_pihole():
         else:
             print_with_current_date_time(str(image_name) + "  created:  " + str(created_datetime))
 
-    clean_docker_images(client)
+    clean_docker(client)
 
     load_image()
     docker_compose_up()
@@ -78,7 +78,7 @@ def docker_compose_down():
     os.system("docker-compose down")
     print_with_current_date_time("docker compose down done")
 
-def clean_docker_images(client):
+def clean_docker(client):
     print_with_current_date_time("Cleaning docker")
     print_with_current_date_time("Purge containers")
     client.containers.prune()
