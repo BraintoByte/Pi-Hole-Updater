@@ -29,7 +29,16 @@ For now, if you don't want to purge everything, you can just remove ```clean_doc
 Hope you enjoy!
 
 -----
+## Dependencies
+
+```bash
+python -m pip install docker
+python -m pip install dateutils
+```
+-----
 ## Install
+
+First install dependencies above, check your python version and make sure you have pip
 
 ```bash
 git clone git@github.com:BraintoByte/Pi-Hole-Updater.git
@@ -61,7 +70,7 @@ Then to add it to crontab:
 
 This will log all output, the python script logs all output with timestamps
 
-# Run
+## Run
 
 ```bash
 python pi_hole_updater.py
